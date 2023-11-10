@@ -21,11 +21,14 @@ public class SceneManagement : MonoBehaviour
 
     }
         
-     
+     public void Quitting()
+    {
+        Application.Quit();
+    }
         
     
     public void Restart(){
-        SceneManager.LoadScene("youtets");
+        SceneManager.LoadScene("youtets", LoadSceneMode.Single);
        
     }
     public class MenuButton : MonoBehaviour
@@ -33,7 +36,7 @@ public class SceneManagement : MonoBehaviour
     public void LoadMenu()
     {
         
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("menu", LoadSceneMode.Single);
     }
 }
    

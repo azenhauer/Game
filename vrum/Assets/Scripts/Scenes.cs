@@ -6,7 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
     public void PlayGame()
     {
        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("youtets",LoadSceneMode.Single);
     }
 
     public void QuitGame()

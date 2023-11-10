@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
     public void LoadMenu()
     {
         
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene(0);
     }
 }
 
