@@ -4,6 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
+
+    void Onclick()
+    {
+        LoadMenu();
+    }
+
     public void LoadMenu()
     {
         
